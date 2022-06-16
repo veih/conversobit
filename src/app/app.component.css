@@ -102,6 +102,12 @@
     line-height: 24px;
   }
 
+  .card:hover {
+    border-color: #1976d2;
+    color: #1976d2;
+    transform: translateY(-8px);
+  }
+
   .card-container .card:not(:last-child) {
     margin-right: 0;
   }
@@ -135,7 +141,7 @@
   }
 
   .card.card.highlight-card span {
-    margin-left: 60px;
+    align-items: center;
   }
 
   svg#rocket {
