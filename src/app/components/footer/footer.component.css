@@ -1,0 +1,48 @@
+.redes {
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  position: absolute;
+  bottom: 0;
+  margin-left:-8px;
+  margin-top: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: #125699;
+  color: #fff;
+}
+a,
+a:visited,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+}
+
+p {
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+a:hover {
+  color: #b7bdc3;
+}
+
+@media screen and (max-width: 1014px) {
+  .redes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 526px) {
+  .redes {
+    display: block;
+    height: 120px;
+  }
+  a {
+    display: block;
+    margin-bottom: 4px;
+  }
+}

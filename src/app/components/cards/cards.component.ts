@@ -18,7 +18,7 @@ export class CardsComponent implements OnInit {
       .then(response => response.json())
       .then(data => {
         btc.forEach(element => {
-          element.innerHTML ='US$: ' + data.data.market_data.price_usd;
+          element.innerHTML ='Valor atual US$: ' + data.data.market_data.price_usd;
         });
       }
       );
@@ -31,7 +31,7 @@ export class CardsComponent implements OnInit {
       .then(response => response.json())
       .then(data => {
         eth.forEach(element => {
-          element.innerHTML = 'US$: ' + data.data.market_data.price_usd;
+          element.innerHTML = 'Valor atual US$: ' + data.data.market_data.price_usd;
         });
       });
   }
@@ -43,7 +43,7 @@ export class CardsComponent implements OnInit {
       .then(response => response.json())
       .then(data => {
         us.forEach(element => {
-          element.innerHTML ="R$: " + data.USDBRL.bid;
+          element.innerHTML ="Valor atual R$: " + data.USDBRL.bid;
         });
       });
   }
