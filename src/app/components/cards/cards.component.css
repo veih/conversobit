@@ -3,6 +3,7 @@
   border-radius: 4px;
   border: 1px solid #eee;
   background-color: #fafafa;
+  color: #1fb163;
   height: 40px;
   width: 200px;
   margin: 0 8px 16px;
@@ -13,12 +14,19 @@
   align-items: center;
   transition: all 0.2s ease-in-out;
   line-height: 24px;
+  font-weight: 500;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
 }
 
 .card:hover {
   border-color: #1976d2;
   color: #1976d2;
-  transform: translateY(-8px);
+  transform: translateY(-2px);
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 10px 10px 10px #cbced1, -10px -10px 10px white;
+  transition: 0.5s;
 }
 .terminal {
   position: relative;
