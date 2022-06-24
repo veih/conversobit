@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent implements OnInit {
-
+  modal: string = '';
   constructor() { }
 
   ngOnInit(): void {
