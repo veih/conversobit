@@ -11,6 +11,10 @@ import { ContentComponent } from './components/content/content.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { EthComponent } from './components/cards/cardeth/eth.component';
+import { BitComponent } from './components/cards/cardbit/bit.component';
+import { BrlComponent } from './components/cards/cardbrl/brl.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { ModalComponent } from './components/modal/modal.component';
     HeaderComponent,
     HeaderComponent,
     FooterComponent,
-    ModalComponent
+    ModalComponent,
+    EthComponent,
+    BitComponent,
+    BrlComponent,
+
   ],
   imports: [
     BrowserModule,
