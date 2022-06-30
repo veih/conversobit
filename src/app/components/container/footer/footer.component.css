@@ -46,3 +46,44 @@ a:hover {
     margin-bottom: 4px;
   }
 }
+
+#banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.2%;
+  position: absolute;
+  transition: opacity 1.5s;
+  transition-timing-function: ease-in-out;
+  bottom: 10px;
+  left: 0;
+  z-index: 9999;
+}
+
+#a,
+#b,
+#c,
+#d {
+  margin-right: 10px;
+  display: inline;
+  transition-timing-function: ease-in-out;
+  color: #fff;
+  font-size: 14px;
+  font-family: cursive;
+}
+
+#a {
+  position: relative;
+  margin-left: 130px;
+}
+
+#b {
+  position: relative;
+  margin-left: 130px;
+}
+
+#c {
+  position: relative;
+  margin-left: 130px;
+}

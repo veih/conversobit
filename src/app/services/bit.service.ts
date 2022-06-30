@@ -4,10 +4,9 @@ import { HttpClient, HttpHandler } from '@angular/common/http';
   providedIn: 'root'
 })
 export class BitService {
-
-  constructor() { }
-
-  bitconAll() {
-
+  bit = 'https://data.messari.io/api/v1/assets/btc/metrics';
+  constructor(private http: HttpClient) { }
+  bitcon() {
+    return this.http.get(this.bit);
   }
 }
